@@ -3,8 +3,7 @@
   "description": "Minimal reproduction of dependency dashboard bug",
   "extends": ["config:base"],
   "dependencyDashboardApproval": true,
+  "postUpdateOptions": ["yarnDedupeHighest"],
   "prConcurrentLimit": 1,
-  "prHourlyLimit": 0,
-  "schedule": ["after 1am and before 4pm"],
-  "timezone": "America/New_York"
+  "prHourlyLimit": 0
 }

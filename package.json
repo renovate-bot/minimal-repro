@@ -1,0 +1,9 @@
+{
+  "name": "minimal-repro",
+  "version": "0.1.0",
+  "description": "Exhibit Renovate Dependency Dashboard bug",
+  "repository": "git@github.com:Kurt-von-Laven/minimal-repro",
+  "author": "Kurt von Laven <kurt.von.laven@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.3"
+}
