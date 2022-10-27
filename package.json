@@ -5,5 +5,5 @@
   "repository": "git@github.com:Kurt-von-Laven/minimal-repro",
   "author": "Kurt von Laven <kurt.von.laven@gmail.com>",
   "license": "MIT",
-  "packageManager": "yarn@3.2.3"
+  "packageManager": "yarn@3.2.4"
 }
