@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Minimal reproduction of dependency dashboard bug",
+  "extends": ["config:base"],
+  "dependencyDashboardApproval": true,
+  "prConcurrentLimit": 1,
+  "prHourlyLimit": 0,
+  "schedule": ["after 1am and before 4pm"],
+  "timezone": "America/New_York"
+}
