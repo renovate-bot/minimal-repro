@@ -1,7 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Minimal reproduction of dependency dashboard bug",
-  "extends": ["config:base"],
+  "extends": [
+    "config:base",
+    ":assignAndReview(Kurt-von-Laven)",
+    "helpers:disableTypesNodeMajor",
+    "npm:unpublishSafe"
+  ],
   "dependencyDashboardApproval": true,
   "postUpdateOptions": ["yarnDedupeHighest"],
   "prConcurrentLimit": 1,
