@@ -27,6 +27,16 @@
   "lockFileMaintenance": {
     "enabled": true
   },
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "semanticCommitScope": "deps-dev"
+    },
+    {
+      "matchPaths": ["action.yaml"],
+      "semanticCommitType": "fix"
+    }
+  ],
   "postUpdateOptions": ["yarnDedupeHighest"],
   "pre-commit": {
     "addLabels": ["pre-commit"],
