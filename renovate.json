@@ -23,6 +23,9 @@
   "js": {
     "addLabels": ["javascript"]
   },
+  "lockFileMaintenance": {
+    "enabled": true
+  },
   "postUpdateOptions": ["yarnDedupeHighest"],
   "pre-commit": {
     "addLabels": ["pre-commit"],
