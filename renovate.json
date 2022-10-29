@@ -37,6 +37,7 @@
       "semanticCommitType": "fix"
     }
   ],
+  "platformCommit": true,
   "postUpdateOptions": ["yarnDedupeHighest"],
   "pre-commit": {
     "addLabels": ["pre-commit"],
