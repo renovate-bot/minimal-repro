@@ -24,6 +24,10 @@
     "addLabels": ["javascript"]
   },
   "postUpdateOptions": ["yarnDedupeHighest"],
+  "pre-commit": {
+    "addLabels": ["pre-commit"],
+    "enabled": true
+  },
   "prConcurrentLimit": 1,
   "prHourlyLimit": 0,
   "python": {
